@@ -1,0 +1,21 @@
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 225px;
+    grid-template-areas: ". .";
+    margin: 10;
+}
+
+.contact-container > div{
+    /*border: black solid 1px;*/
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #eed3b6;
+    margin: 15px;
+}
+
+.contact-container > div > ul {
+    padding: 0 20px;
+}
+

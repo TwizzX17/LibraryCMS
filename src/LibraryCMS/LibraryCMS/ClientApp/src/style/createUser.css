@@ -1,0 +1,16 @@
+
+#create-user-container > div {
+    display: grid;
+    width: 350px;
+    grid-template-rows: 75px 75px 75px 75px 75px;
+    height: 100%;
+}
+
+
+#create-user-container > div > button{
+    margin: 15px 0;
+    width: 160px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}

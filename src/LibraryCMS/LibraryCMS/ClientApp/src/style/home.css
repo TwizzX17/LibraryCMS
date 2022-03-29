@@ -1,0 +1,23 @@
+
+.category-container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 400px;
+    grid-template-areas: ". .";
+    /*gap: 50px;*/
+    margin: 25px;
+}
+
+.category-container > div{
+    /*border: black solid 1px;*/
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #eed3b6;
+    margin: 15px;
+}
+/* #eed3b6 */
+
+.category-container > div > ul {
+    padding: 0 20px;
+}
+

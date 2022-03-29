@@ -1,0 +1,16 @@
+
+#login-container > div {
+    display: grid;
+    width: 350px;
+    grid-template-rows: 75px;
+}
+
+
+#login-container > div > button{
+    margin: 15px 0;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+

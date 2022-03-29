@@ -1,0 +1,48 @@
+.bookform-container{
+    display: grid;
+    grid-template-areas: 
+        ". ."
+        ". ."
+        ". ."
+        ". ."
+        ". ."
+        ". ."
+        "myResume myResume"
+        "myButton myButton";
+    /*grid-template-rows: 100px 300px;*/
+    grid-template-columns: 400px 400px;
+    justify-content: space-evenly;
+    grid-gap: 20px;
+}
+
+.bookform-container > h5{
+    display: flex;
+    align-items: center;
+}
+
+#Genre-form-control{
+    margin:0px;
+    width:100%;
+}
+
+#upload-label {
+    height: 100%;
+    margin-bottom: 0px;
+}
+
+#upload-label > span {
+    height: 100%;
+}
+
+#picture-path-column > div {
+    width: 77%;
+}
+
+.book-resume {
+    grid-area: myResume;
+    width: 100%;
+}
+
+#book-save-button {
+    grid-area: myButton;
+ }

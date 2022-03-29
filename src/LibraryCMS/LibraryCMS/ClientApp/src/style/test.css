@@ -1,0 +1,9 @@
+﻿.grid_container {
+    display: grid;
+    /*gap: 5px;*/
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-areas:
+        "header header header"
+        "h3 p div"
+        "footer footer footer";
+}

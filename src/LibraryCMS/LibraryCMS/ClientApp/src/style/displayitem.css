@@ -1,0 +1,63 @@
+.item-grid {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    grid-template-areas: 
+        "img div"
+        "p button"
+}
+
+.item-grid > * {
+    padding: 10px;
+    margin: 15px;
+}
+
+.item-grid > img {
+    border: black solid 1px;
+    height: 300px;
+    width: 250px;
+}
+
+.item-grid > div:first-child {
+    
+    height: 300px;
+    width: 75%;
+}
+
+.item-grid > div:last-child {
+    height: 50px;
+    width: 80%;
+}
+
+.item-grid > div:last-child > button {
+    height: 50px;
+    width: 100%;
+}
+
+#item-table > tr > td > div {
+    
+}
+
+#item-table > td th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+ #item-table > tr:nth-child(even) {
+    background-color: #eeeeee;
+  }
+
+
+  .datepicker-form{
+      display: flex;
+      margin-bottom: 16px;
+  }
+
+  .datepicker-form > span{
+    margin-right: 5px;
+}
+
+.datePicker{
+    width: 100px;
+    margin: 0px 5px;
+}
